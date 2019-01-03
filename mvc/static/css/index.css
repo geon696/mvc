@@ -1,0 +1,257 @@
+body{
+	background: url('../images/paperBG.jpg');
+	background-size: cover;
+	font-family: 'Black Han Sans', sans-serif;
+	overflow-x: hidden;
+	margin:0;
+	padding: 0;
+}
+
+#outerContainer {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#container {
+	width:80%;
+	margin: 0 auto;
+	display: block;
+}
+
+#botContainer {
+	width: 80%;
+	margin: 10px auto;
+	display: block;
+}
+
+#botContainer .rand{
+    display: inline-block;
+    width: 35%;
+    margin-top: 10px;
+}
+
+#botContainer .rand h3 {
+	text-align: center;
+}
+
+#botContainer .rand .caption{
+	background-image: url('../images/randomText.jpg');
+}
+
+
+#mainheader h1 {
+	height: 40px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#mainheader nav {
+	height:40px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#mainheader nav ul {
+	margin: 0 auto;
+	list-style: none;
+	padding: 0;
+}
+
+#mainheader nav ul li {
+	display: inline-block;
+}
+
+#mainheader nav a:link , #mainheader nav a:visited{
+	color:#000;
+	display:inline-block;
+	text-decoration: none;
+	padding:10px 35px;
+
+}
+
+#mainheader nav a:hover , #mainheader nav a:active,
+#mainheader nav .active a:link , #mainheader nav .active a:visited{
+	background-color: #000;
+	color:#E6AF30;
+}
+
+.content {
+	overflow: hidden;
+}
+
+.mainArticle {
+	width: 100%;
+	text-align: justify;
+	margin-top:2%;
+}
+
+.mainArticle h2{
+	text-align: center;
+}
+
+
+.mainArticle .caption {
+	line-height: 28px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+	width: fit-content;
+	background-color: rgba(0,0,1,0.5);
+	color: white;
+}
+
+.middleText::before {
+	content: "_-0-_";
+	text-align: center;
+	display: block;
+}
+
+.aboutContent {
+	background-color: rgba(0,0,1,0.5);
+	width: 60%;
+	margin: 10px auto;
+	padding: 10px;
+	color: white;
+	text-align: center;	
+
+}
+
+.responseMessage.error {
+	color: white;
+	background-color: rgba(150,0,0,0.5);
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.responseMessage.success {
+	color: white;
+	background-color: rgba(0,150,0,0.5);
+	margin-top: 10px;
+	padding: 10px;
+	text-align: center;
+}
+
+.mailform{
+	margin-top: 35px;
+}
+
+.mainArticle .mailform div {
+	display: block;
+	line-height: 28px;
+	margin: 0 auto;
+}
+
+.mainArticle .mailform div span {
+	display: inline-block;
+	margin-right: 5px;
+	width: 10%;
+}
+
+.mainArticle .mailform div input {
+	font-family: 'Black Han Sans', sans-serif;
+	display: inline-block;
+	background: none;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding:10px;
+}
+.mainArticle .mailform div textarea{
+	font-family: 'Black Han Sans', sans-serif;
+	background: none;
+	font-size: 1em;
+	display: block;
+	resize: none;
+	width: 60%;
+	height: 200px;
+	margin: 10px 0;
+}
+
+.mainArticle .mailform div .textareaMessage {
+	margin-top: 10px;
+}
+
+.mainArticle .mailform div .send {
+	padding: 10px;
+	cursor: pointer;
+	width: fit-content;
+
+}
+
+.mainArticle .mailform div .sending {
+	background-color: rgba(0,0,1,0.5);
+	cursor: progress;
+	width: fit-content;
+	margin-bottom: 10px;
+}
+
+
+.mainArticle .something{
+	text-align: center;
+}
+.mainArticle .mffooter{
+	background-color: rgba(0,0,1,0.5);
+	font-size: 10px;
+	color:#fff;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+footer{
+	background-color: rgba(0,0,1,0.5);
+	text-align: center;
+	color:white;
+	padding: 10px;
+	width:100%;
+}
+
+footer p {
+	margin: 0;
+}
+
+
+#container .content .mainArticle .upload {
+	width: 30%;
+	margin: 0 auto;
+}
+
+#container .content .mainArticle .upload input {
+	border: none;
+	text-align: center;
+	padding:10px;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+
+.noPage {
+	width: 100%;
+    font-size: 150px;
+    text-align: center;
+}
+
+.subpage {
+	text-align: center;
+    font-size: 25px;
+}
+
+.epage {
+	text-align: center;
+	display: block;
+	margin: 80px auto;
+}
+
+.page404 {
+	font-size: 6em;
+}
+
+.errorpage {
+	font-size: 2em;
+}
+
+.errorpage span {
+	color: green;
+}
